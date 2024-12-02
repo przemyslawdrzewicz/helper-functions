@@ -1,0 +1,26 @@
+{
+  "name": "helpers-plugin",
+  "version": "1.0.6",
+  "description": "A typescript plugin that adds helpers for Array, Object, and other prototypes.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests yet!\""
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "ts",
+    "js",
+    "plugin",
+    "helpers",
+    "nuxt"
+  ],
+  "author": "przemyslawdrzewicz",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
