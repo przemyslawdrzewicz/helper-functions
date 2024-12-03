@@ -2,6 +2,8 @@
 
 A Javascript / Typescript plugin that adds helper functions for arrays, objects, and other prototypes or global functions, making it easier to write clean code.
 
+🔥 Live preview <a href='https://przemyslawdrzewicz.github.io/helpers-plugin-preview/'>here</a> 👈
+
 ## Installation
 
 Install via npm:
