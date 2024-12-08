@@ -56,7 +56,8 @@ Array.prototype.compare = function (secondArray) {
 export const types = {
   isBoolean: (value: any) => typeof value === "boolean",
   isString: (value: any) => typeof value === "string",
-  isObject: (value: any) => value && value.constructor.name === "object",
+  isObject: (value: any) =>
+    !!value && typeof value === "object" && !Array.isArray(value),
   isArray: (value: any) => Array.isArray(value),
   isFunction: (value: any) => typeof value === "function",
   isNumber: (value: any) => typeof value === "number",

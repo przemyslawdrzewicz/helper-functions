@@ -1,6 +1,6 @@
 {
   "name": "helpers-plugin",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A typescript plugin that adds helpers for Array, Object, and other prototypes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
